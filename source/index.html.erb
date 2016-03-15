@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Country Collections | Jean Purses, Window & Garden Art</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <%= stylesheet_link_tag 'all' %>
+</head>
+
+<body id="body" data-spy="scroll" data-target=".one-page-header">
+
+       	<div class="container">
+        	<div class="row">
+            	<div class="col-md-8 col-md-offset-2">
+				<div class="promo-text">
+                	<h1>Welcome to Country Collections</h1>
+				</div>
+            </div>
+            </div>
+        </div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-gray">
+        <div class="container content">
+			<div class="col-md-8 col-md-offset-2">
+
+				<p>Country Collections produces an assortment of fun, unique, one of kind creations. Jean Purses using up-cycled jeans to make purses for the young princess; teens and ladies purses; tote bags; and ‘Bummer’ bags (duffle).</p>
+
+				<p>Window Art using old window frames to make indoor and outdoor creations. Garden Art using antiques, old stuff and other items of interest to make unique pieces of art to hang or place in your garden. </p>
+
+				<p>Custom orders are welcome.</p>
+			</div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1>CREATIONS</h1>
+                </div>
+            </div>
+            <div class="cube-portfolio">
+                <div id="filters-container" class="cbp-l-filters-button">
+                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div>
+                    <div data-filter=".purse" class="cbp-filter-item"> Jean Purses </div>
+                    <div data-filter=".windowart" class="cbp-filter-item"> Window Art </div>
+                </div>
+
+                <div id="grid-container" class="cbp-l-grid-gallery">
+                    <div class="cbp-item purse">
+                        <a href="img/purse1.jpg" rel="gallery1" class="fancybox img-hover-v1">
+                            <span><img class="img-responsive" src="img/purse1small.jpg" alt=""></span>
+                        </a>
+                    </div>
+                    <div class="cbp-item purse">
+                            <a href="img/purse2.jpg">
+                            <span><img src="img/purse2small.jpg" alt=""></span>
+                            </a>
+                    </div>
+                    <div class="cbp-item purse">
+                        <a href="img/purse3.jpg" rel="gallery1" class="fancybox img-hover-v1">
+                        <span><img src="img/purse3small.jpg" alt=""></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="cbp-l-loadMore-button">
+                    <a href="ajax/loadMore.html" class="cbp-l-loadMore-button-link">LOAD MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- Contacts Section -->
+    <section id="contact" class="contacts-background-image contacts-section">
+        <div class="container content">
+            <h1>CONTACT</h1>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="title-contact">Contact Cynthia for more information about her jean purse, window and garden art creations.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <form name="sentMessage" id="contactForm" method="post">
+                        <fieldset>
+                            <div class="row margin-bottom-30 form-group">
+                                <div class="col-md-6 col-md-offset-0 bottom-padding-collapse">
+                                        <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                </div>
+                                <div class="col-md-6 col-md-offset-0">
+                                        <input type="email" class="form-control" name="_replyto" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                </div>
+                            </div>
+                            <div class="row margin-bottom-30 form-group">
+                                <div class="col-md-12 col-md-offset-0">
+                                    <input type="subject" class="form-control" placeholder="Subject" id="subject" required data-validation-required-message="Please enter your subject.">
+                                    <input type="hidden" name="_subject" value="New submission!">
+                                </div>
+                            </div>
+
+                            <div class="row margin-bottom-30 form-group">
+                                <div class="col-md-12 col-md-offset-0">
+                                    <div>
+                                        <textarea rows="8" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    </div>
+                                </div>
+                                <div id="success"></div>
+                            </div>
+                        <div class="row form-group">
+                            <div class="col-xs-12">
+                            <p><button type="submit" class="btn-u">Send Message</button></p>
+                            </div>
+                        </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3>Cynthia Roberts</h3>
+                        </li>
+                        <li>
+                            <i class="icon-custom icon-sm rounded-x icon-color-u fa fa-phone"></i>
+                            <h6>Phone</h6>
+                            <p><span class="disabledAnchor" itemprop="telephone">(289) 686 5676</span></p>
+                        </li>
+                        <li>
+                            <i class="icon-custom icon-sm rounded-x icon-color-u fa fa-envelope"></i>
+                            <h6>Email</h6>
+                            <p itemprop="email">cynthia@gardenconcepts.ca</p>
+                        </li>
+                    </ul>
+                    <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><b>Serving the Niagara Area, <span itemprop="addressRegion">Ontario</span>, <span itemprop="addressCountry">Canada</span></b> </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts END -->
+
+    <!-- Footer -->
+    <section class="footer-simple">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-sm-10 col-xs-10">
+            <p>2016 &copy; All Rights Reserved - Country Collections</p>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-2 text-right pull-right">
+            <ul class="social-icons">
+                <li><a class="social_linkedin rounded-x" data-original-title="Linkedin" href="//ca.linkedin.com/pub/cynthia-roberts/88/87a/a76"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Footer -->
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin">
+
+    <%= javascript_include_tag 'all' %>
+
+</body>
+</html>
