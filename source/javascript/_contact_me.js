@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/cynthia@gardenconcepts.ca",
+                url: "//formspree.io/cynthia@countrycollections.ca",
                 type: "POST",
                 data: {
                     name: name,
