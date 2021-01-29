@@ -1,1 +1,1 @@
-# Country
+Formerly countrycollections.ca
